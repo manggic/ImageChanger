@@ -38,7 +38,6 @@ function App() {
     <div className="app">
       
        <div className="container-fluid" style={{ padding: "0px" }}>
-       
           <div className="row">
             <div className="col-4 d-flex justify-content-center align-items-center">
                 <button onClick={ previous } className="btn btn-dark text-white border" >Previous</button>
@@ -50,12 +49,10 @@ function App() {
             <button onClick={ next } className="btn btn-dark text-white border" > Next </button>
             </div>
           </div>
-
        </div>    
     </div>
     <ToastContainer />
     </div>
-    
   );
 }
 
